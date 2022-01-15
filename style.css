@@ -149,3 +149,33 @@ footer{
     color: white;
     margin-left: 20px;
 }
+
+/* responsive */
+/* mobile device */
+
+@media only screen and (max-width: 688px){
+    .influencer-area{
+        width: 100%;
+    }
+    .influencer, .collection, footer{
+        grid-template-columns: repeat(1, 1fr);
+    } 
+    .half-width, .collection, footer{
+        flex-direction: column;
+    }
+
+
+    }
+}
+/* tablet */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .influencer-area{
+        width: 100%;
+    }
+    .influencer, .collection{
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .half-width, .collection{
+        flex-direction: column;
+    }
+}
