@@ -1,0 +1,33 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+}
+
+p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 41px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.influencer-area{
+    display: flex;
+    align-content: space-around;
+}
+.influencer{
+    margin-left: 136px;
+    margin-right: 117px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5px;
+}
+.half-width img{
+    width: 440px;
+    height: 414px;
+}
